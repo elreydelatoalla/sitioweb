@@ -42,9 +42,7 @@ paginate = 4
 	[params.about]
 		hide  = false
 		title = "Mi pasión son las toallas y la fotografía. ¡En este sitio encontrarás un montón de ambas!"
-		content = "Soy muy fan de las jornadas de trabajo de 16 a 19 con Jaime Altozano, aunque en mi caso, no trabajo. ¡Me dedico a ordenar mis toallas y a crearles un portfolio!
-
- (A ratos también publico videos en [La Hora Maker](http://www.youtube.com/lahoramaker) o hago sitios como este para practicar y documentar estos procesos :) )"
+		content = "Soy muy fan de las jornadas de trabajo de 16 a 19 con Jaime Altozano, aunque en mi caso, no trabajo. ¡Me dedico a ordenar mis toallas y a crearles un portfolio! (A ratos también publico videos en [La Hora Maker](http://www.youtube.com/lahoramaker) o hago sitios como este para practicar y documentar estos procesos :) )"
 
 
 	[params.portfolio]
