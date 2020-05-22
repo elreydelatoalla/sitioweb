@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "es-es"
 title = "Portfolio Rey de la Toalla"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+#disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
 # googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -29,7 +29,7 @@ paginate = 4
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.JPG"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Soy el Rey del Toallero**, desde hace año me apasionan las toallas. Mi día favorito del años es el 25 de Mayo, que se celebra el dia de la Toalla."
+		bio = "**Soy el Rey de la Toalla** Desde hace años me apasionan las toallas. Mi día favorito del año es el 25 de Mayo, que se celebra el dia de la Toalla."
 		# The icons will be shown if you enter your username
 		twitter = "metametamaking"
 		github = "metametamaking-dev"
@@ -42,7 +42,9 @@ paginate = 4
 	[params.about]
 		hide  = false
 		title = "Mi pasión son las toallas y la fotografía. ¡En este sitio encontrarás un montón de ambas!"
-		content = "Soy muy fan de las jornadas de trabajo de 16 a 19 con Jaime Altozano, aunque en mi caso, no trabajo. ¡Me dedico a ordenar mis toallas! (A ratos también publico videos en [La Hora Maker](http://www.youtube.com/lahoramaker)"
+		content = "Soy muy fan de las jornadas de trabajo de 16 a 19 con Jaime Altozano, aunque en mi caso, no trabajo. ¡Me dedico a ordenar mis toallas y a crearles un portfolio!
+
+ (A ratos también publico videos en [La Hora Maker](http://www.youtube.com/lahoramaker) o hago sitios como este para practicar y documentar estos procesos :) )"
 
 
 	[params.portfolio]
@@ -52,43 +54,31 @@ paginate = 4
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/toalla1.JPG"
-			thumb = "thumbs/toalla1.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/toalla1.png"
+			thumb = "thumbs/toalla1.png"
+			title = "Variedad de tonos pastel."
+			description = "Siempre hay una para cada ocasión!."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/toalla2.JPG"
-			thumb = "thumbs/toalla2.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/toalla2.png"
+			thumb = "thumbs/toalla2.png"
+			title = "La tradicional de playa."
+			description = "Hace 20 años, estos diseños con bolsillo, causaban furor."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/toalla3.JPG"
-			thumb = "thumbs/toalla3.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/toalla3.png"
+			thumb = "thumbs/toalla3.png"
+			title = "Toalla Rainbow."
+			description = "PAra cuando no puedes decidirte por ningún color."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/toalla4.JPG"
-			thumb = "thumbs/toalla4.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/toalla5.JPG"
-			thumb = "thumbs/toalla5.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/toalla6.JPG"
-			thumb = "thumbs/toalla6.JPG"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/toalla4.png"
+			thumb = "thumbs/toalla4.png"
+			title = "La tradicional arrugada."
+			description = "Siempre hay alguna tolla al punto del arrastre."
 
 	[params.recentposts]
-		hide  = false
+		hide  = true
 		title = "Recent blog posts"
 
 	[params.contact]
